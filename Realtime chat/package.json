@@ -1,0 +1,20 @@
+{
+    "name": "realtime-chat",
+    "version": "1.0.0",
+    "description": "Realtime chat app with room",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server",
+        "dev": "nodemon server"
+    },
+    "author": "hoang.senpai.dev",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.1",
+        "moment": "^2.29.3",
+        "socket.io": "^4.5.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.16"
+    }
+}

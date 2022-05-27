@@ -64,7 +64,7 @@ app.get('/', (req, res) => {
     // update
     let updateData = () => {
         productModule.updateMany({ productName: 'tao 1' }, { productName: 'tao 111111111111111', quantity: 111111 }, (err, res) => {
-            if (err) throw err;
+            if (err) throw err
 
             console.log("Cập nhật thành công <---- ");
             console.log(res);
